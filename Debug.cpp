@@ -31,6 +31,14 @@ using namespace std;
     }
     return to_string(a[j - 1]);
 }*/
+//Diluc
+//Zhongli
+
+//Venti
+
+//33ra
+
+//Diona
 int main()
 {
     int a[1000], n = 0;
@@ -39,7 +47,7 @@ int main()
             if (i * j == 2 * (i + j))
                 a[n++] = i * 10 + j;
     }
-    for (int i = 0; i < n; ++i)
-        cout << a[i] << " ";
+    for (int i = 0; i <= n; i++)
+        cout << a[i];
 	return 0;
 }
